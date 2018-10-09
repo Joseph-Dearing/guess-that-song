@@ -1,0 +1,73 @@
+.carousel-inner img {
+    width: 256px;
+    height: 400px;
+ }
+
+ #whole {
+     width: 50%;
+     margin: 0 auto;
+ }
+
+ body {
+    background: linear-gradient(-50deg, rgb(238, 146, 162), rgb(28, 173, 221), rgb(129, 28, 187) , rgb(57, 228, 23));
+    background-size: 270% 300%;
+    -webkit-animation: Gradient 3s ease infinite;
+    animation: Gradient 3s ease infinite;
+
+}
+
+body {
+    background: linear-gradient(-75deg, rgb(209, 7, 209), rgb(30, 206, 30), rgb(40, 172, 216), rgb(241, 5, 5));
+    background-size: 170% 200%;
+    -webkit-animation: Gradient 3s ease infinite;
+    animation: Gradient 3s ease infinite;
+
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	10% {
+		background-position: 0% 50%
+	}
+	100% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
