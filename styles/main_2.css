@@ -4,6 +4,9 @@ body {
     -webkit-animation: Gradient 3s ease-in-out infinite;
     animation: Gradient 3s ease-in-out infinite;
 }
+/*The Code above is the second background I used for my game, because I just wanted the pages to look different
+depending on what song was playing, and so the user can tell everytime they went to the next page. The webkit 
+animation is what allows for the background to change colors*/
 
 @-webkit-keyframes Gradient {
 	0% {
@@ -99,13 +102,13 @@ body {
     color: rgb(212, 208, 208);
 }
 
-#carousel-inner img {
-    width: 256px;
-    height: 400px;
+.carousel-inner img {
+    height: 500px;
  }
 
  #music-albums {
      width: 50%;
+     height: 50%;
      margin: 0 auto;
      padding:1px;
      border:5px solid rgb(179, 179, 179);      

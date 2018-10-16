@@ -80,9 +80,8 @@
     color: yellow;
 }
 
-#carousel-inner img {
-    width: 256px;
-    height: 400px;
+.carousel-inner img {
+    height:500px;
  }
 
  #music-albums {
