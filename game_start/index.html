@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles/main.css" />
+</head>
+<body>
+    
+    <div id="welcome-title">
+        <h1>Welcome To Guess That Song!</h1>
+    </div>
+    
+    <div id="game-title">
+        <h1>Please Select Your Game Preference</h1>
+    </div>
+    
+    <div class="game_mode_buttons">
+        <a id="game_mode_buttons" button onclick="window.location='../guess_the_song_index/question_1.html';">Guess The Song</button></a>
+        <br>
+        <br>
+        <a id="game_mode_buttons" button onclick="window.location='../guess_the_artist_index/question_1.html';">Guess The Artist</button></a>
+    </div>
+    
+    <div class="gif">
+        <iframe src="https://giphy.com/embed/93aHgpps1ajjq" width="480" height="480" allowFullScreen></iframe>
+    </div>
+    
+    <audio id="game_start" src="../music_files/stop_music.m4a" loop="loop"></audio>  
+    <script src="../javascript/game_start.js"></script>
+</body>
+</html>

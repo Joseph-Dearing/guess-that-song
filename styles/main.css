@@ -39,6 +39,42 @@
     color: #ffffff;
 }
 
+.game_mode_buttons {
+   float: right;
+   padding: 100px;
+}
+
+#game_mode_buttons {
+    display: inline-block;
+    margin: 5px;
+    margin-top: 25px;
+    background: #d37bb1;
+    color: rgb(218, 212, 212);
+    font-size: 2.5em;
+    font-family: ‘Georgia’, serif;
+    font-style: italic;
+    border-radius: 50px;
+    padding: 80px 16px;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+#game_mode_buttons:hover {
+     background: rgb(231, 34, 231);
+    color: #ffffff;
+}
+
+#welcome-title {
+    float: left;
+    color: yellow;
+}
+
+#game-title {
+    float: right;
+    color: rgb(253, 194, 243);
+}
+
 #title {
     text-align: center;
     color: yellow;
