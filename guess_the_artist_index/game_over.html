@@ -6,7 +6,6 @@
     <title>Game Over!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="../styles/final_round.css" />
-    <script src="main.js"></script>
 </head>
 <body>
     <div id="title">
@@ -15,16 +14,17 @@
     </div>
     
     <div class="game_over_buttons">
-            <a id="game_over_buttons" button onclick="window.location='../guess_the_song_index/question_1.html';">Now Guess The Songs<br>That Those Artists<br>Were Singing!</button></a>
-            <br>
-            <br>
-            <a id="game_over_buttons" button onclick="window.location='../guess_the_artist_index/question_1.html';">Play This Round Again!</button></a>
-        </div>
-        
+        <a id="game_over_buttons" button onclick="window.location='../guess_the_song_index/question_1.html';">Now Guess The Songs<br>That Those Artists<br>Were Singing!</button></a>
+        <br>
+        <br>
+        <a id="game_over_buttons" button onclick="window.location='../guess_the_artist_index/question_1.html';">Play This Round Again!</button></a>
+    </div>
+    
     <div class="gif">
         <iframe src="https://giphy.com/embed/ir8oYLD0spr1u" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
     </div>
 
-
+    <audio id="game_over" src="../music_files/bang.m4a" loop="loop"></audio> 
+    <script src="../javascript/game_over.js"></script>
 </body>
 </html>
