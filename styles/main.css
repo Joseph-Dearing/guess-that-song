@@ -77,7 +77,7 @@
 }
 
 /*This is the class for the welcome header that is on the "start_game" page*/
-.welcome-title {
+.welcome {
     float: left;
     color: yellow;
 }

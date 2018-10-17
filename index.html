@@ -13,9 +13,10 @@
         alert("**ATTENTION GOOGLE CHROME USERS!** \n \n In a recent update, Google Chrome has released an experimental feature that is enabled by default that will prevent this game from working correctly. \n \nIf you are using Chrome please copy this to your clipboard and paste it into your browser... \n \n chrome://flags/#autoplay-policy \n \n After you paste this into your browser and press enter, go under Autoplay Policy and change it from *default* to *No user gesture is required*.");
     </script>
     
-    <!--This is the class for the header that welcomes the user to my page-->
-    <div class="welcome-title">
+    <!--This is the class for the header & gif that welcomes the user to my page-->
+    <div class="welcome">
         <h1>Welcome To Guess That Song!</h1>
+        <iframe src="https://giphy.com/embed/93aHgpps1ajjq" width="480" height="480" frameBorder="0 class=giphy-embed" allowFullScreen></iframe>
     </div>
     
     <!--This is the class for the header instructing the user to pick what version of the game they would like to play-->
@@ -23,19 +24,13 @@
         <h1>Please Select Your Game Preference</h1>
     </div>
     
-    <!--This is the class for the buttons that allow the user to pick wha-->
+    <!--This is the class for the buttons that allow the user to pick what version of the game they would like to play-->
     <div class="game_mode_buttons">
         <a id="game_mode_buttons" button onclick="window.location='guess_the_song_index/question_1.html';">Guess The Song</button></a>
         <br>
         <br>
         <a id="game_mode_buttons" button onclick="window.location='guess_the_artist_index/question_1.html';">Guess The Artist</button></a>
     </div>
-    
-    <!--This is a class for the gif of the dancing stick figure-->
-    <div class="gif">
-        <iframe src="https://giphy.com/embed/93aHgpps1ajjq" width="480" height="480" frameBorder="0 class=giphy-embed" allowFullScreen></iframe>
-    </div>
-    
     
     <!--This below is my audio file that plays as soon as the page is loaded in a loop-->
     <!--Also note with a recent patch in Google Chrome this file may not play unless you manually update security settings in Chrome-->
