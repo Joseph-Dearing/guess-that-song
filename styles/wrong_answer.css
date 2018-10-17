@@ -1,3 +1,4 @@
+/*This is targetting the class for the button on the wrong answer page*/
 .button {
     display: inline-block;
     margin: 5px;
@@ -15,17 +16,22 @@
     text-decoration: underline;
 }
 
+/*This is targetting the class for the button on the wrong answer page*/
+/*When the user hovers over a button it will highlight and change to a lighter color*/
 .button:hover {
     background: rgb(231, 34, 231);
     color: #ffffff;
 }
 
+/*This is targetting the header on the wrong answer page*/
 h1{
   text-align:Center;
   font-family: 'Fredoka One', cursive;
   color: red;
   font-size:90px;
 }
+
+/*This is the class for the sad face*/
 .container{
     margin: auto;
     position: absolute;
@@ -33,6 +39,8 @@ h1{
     transform: translate(-50%,-50%);
   }
 
+/*This is the background color for some of the question pages with webkit-keyframes*/ 
+/*It allows the background to move around and change colors*/
 body {
     background: linear-gradient(-75deg, rgb(24, 20, 240), rgb(3, 188, 245), rgb(40, 172, 216));
     background-size: 170% 200%;
@@ -41,6 +49,7 @@ body {
 
 }
 
+/*This allows the background to move around and change colors*/
 @-webkit-keyframes Gradient {
 	0% {
 		background-position: 0% 50%
@@ -53,6 +62,7 @@ body {
 	}
 }
 
+/*This allows the background to move around and change colors*/
 @keyframes Gradient {
 	10% {
 		background-position: 0% 50%
@@ -65,6 +75,7 @@ body {
 	}
 }
 
+/*This allows the background to move around and change colors*/
 @-webkit-keyframes Gradient {
     0% {
         background-position: 0% 50%
@@ -77,6 +88,7 @@ body {
     }
 }
 
+/*This allows the background to move around and change colors*/
 @keyframes Gradient {
     0% {
         background-position: 0% 50%
@@ -90,8 +102,8 @@ body {
 }
 
   
-  
-  .face{
+  /*This is the class for the face of the sad face animated emoji*/
+  .face {
     width:150px;
     height:150px;
     border: 9px solid #bdc3c7;
@@ -102,8 +114,8 @@ body {
     z-index:9999;
   }
   
-  
-  .mouth{
+    /*This is the class for the mouth of the sad face animated emoji*/
+  .mouth {
     height:10px;
     width:35px;
     margin: 0 auto;
@@ -113,7 +125,8 @@ body {
     animation-delay:2s;
   }
   
-  .tear{
+    /*This is the class for the left tear of the sad face animated emoji*/
+  .tear {
     position:absolute;
     background-color: #3498db;
     height:0px;
@@ -125,7 +138,8 @@ body {
     animation-delay:2s;
   }
   
-  .tear2{
+    /*This is the class for the right tear of the sad face animated emoji*/
+  .tear2 {
     position:absolute;
     background-color: #3498db;
     height:0px;
@@ -137,7 +151,8 @@ body {
     animation-delay:2s;
   }
   
-  .eye{
+    /*This is the class for the eye of the sad face animated emoji*/
+  .eye {
     height:10px;
     width:45px;
     background-color:#bdc3c7;
@@ -148,7 +163,8 @@ body {
     animation-delay:2s;
   }
   
-  .eyebrow{
+    /*This is the class for the eyebrow of the sad face animated emoji*/
+  .eyebrow {
     width:30px;
     font-size:40px;
     font-weight:bold;
@@ -161,39 +177,53 @@ body {
     animation-delay:2s;
   }
   
-  .eyebrow:nth-child(1){
+  /*This is the class for the eyebrow of the sad face animated emoji*/
+  /*With the code below it will rotate the ︶ so it resembles an eyebrow or basically moves with the face*/
+  .eyebrow:nth-child(1) {
     transform:rotate(-20deg);
   }
   
-  .eyebrow:nth-child(2){
+  /*This is the class for the eyebrow of the sad face animated emoji*/
+  /*With the code below it will rotate the ︶ so it resembles an eyebrow or basically moves with the face*/
+  .eyebrow:nth-child(2) {
     transform:rotate(20deg);
   }
   
-  @keyframes mouth{
+  /*This is the keyframe that is targetting the sad face's mouth*/
+  /*With the code below when the sad face animated emoji begins to cry its mouth will open into an o shape*/
+  @keyframes mouth {
     10%{height:30px;width:25px; border:6px solid black;border-radius:50%;margin-top:-8px;}
     50%{height:30px;width:25px; border:6px solid black;border-radius:50%;margin-top:-8px;}
     60%{height:10px;width:35px;border-radius:0%;border:none;margin-top:15px;}
   }
   
-  @keyframes cry{
+  /*The code below will target the emoji's eyes*/
+  /*With the code below it will cause the emoji eyes to move up, and change to black*/
+  @keyframes cry {
     10%{transform:translateY(-34px);background-color:black;}
     50%{transform:translateY(-34px);background-color:black;}
     60%{background-color:#bdc3c7;transform:translateY(0px);}
   }
   
-  @keyframes eyebrow{
+  /*The code below is targetting the emoji's eyebrows*/
+  /*With the code below when the emoji begins to cry its eyebrows will appear*/
+  @keyframes eyebrow {
     10%{opacity:1;color:black;}
     50%{opacity:1;color:black;}
     60%{opacity:0;}
   }
   
-  @keyframes face{
+  /*The code below is tagetting the emoji's outter face*/
+  /*When the emoji begins to cry it's outter face turns from white to black*/
+  @keyframes face {
     10%{border-color:black;}
     50%{border-color:black;}
     60%{border-color:#bdc3c7;}
   }
   
-  @keyframes tear{
+  /*The code below is tagetting the emoji's front face*/
+  /*When the emoji begins to cry, blue tears will appear on the front of it's face*/
+  @keyframes tear {
     10%{height:96px;}
     50%{height:96px;}
     52%{height:0px;}

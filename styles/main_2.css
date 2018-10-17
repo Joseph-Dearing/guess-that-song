@@ -1,3 +1,5 @@
+/*This is the background color for some of the questions pages with webkit-keyframes*/ 
+/*It allows the background to move around and change colors*/
 body {
     background: linear-gradient(-75deg, rgb(24, 20, 240), rgb(179, 4, 179), rgb(40, 172, 216));
     background-size: 170% 200%;
@@ -5,6 +7,7 @@ body {
     animation: Gradient 3s ease-in-out infinite;
 }
 
+/*This allows the background to move around and change colors*/
 @-webkit-keyframes Gradient {
 	0% {
 		background-position: 0% 50%
@@ -17,6 +20,7 @@ body {
 	}
 }
 
+/*This allows the background to move around and change colors*/
 @keyframes Gradient {
 	10% {
 		background-position: 0% 50%
@@ -29,6 +33,7 @@ body {
 	}
 }
 
+/*This allows the background to move around and change colors*/
 @-webkit-keyframes Gradient {
     0% {
         background-position: 0% 50%
@@ -41,6 +46,7 @@ body {
     }
 }
 
+/*This allows the background to move around and change colors*/
 @keyframes Gradient {
     0% {
         background-position: 0% 50%
@@ -53,6 +59,7 @@ body {
     }
 }
 
+/*This is the id for the multiple choice buttons*/
 #button {
     display: inline-block;
     margin: 5px;
@@ -69,11 +76,15 @@ body {
     transition: all 0.2s;
 }
 
+/*This is the id for the multiple choice buttons*/
+/*When the user hovers over a button it will highlight and change to a lighter color*/
 #button:hover {
     background: rgb(0, 153, 255);
     color: #ffffff;
 }
 
+/*This is the class for the skip button that is on each page of the game*/ 
+/*It allows the user to skip the question*/
 .skip_button {
     margin: 5px;
     margin-top: 25px;
@@ -89,21 +100,25 @@ body {
     float: right;
 }
 
+/*This is the class for the skip button that is on each page of the game*/
+/*When the user hovers over a button it will highlight and change to a lighter color*/ 
 .skip_button:hover {
     background: rgb(0, 153, 255);
     color: #ffffff;
 }
 
+/*This is the id for the header on the questions pages*/
 #title {
     text-align: center;
     color: rgb(212, 208, 208);
 }
 
-#carousel-inner img {
-    width: 256px;
-    height: 400px;
+/*This is the class for the inner carousel of images that are moving by on each page*/
+.carousel-inner img {
+    height: 500px;
  }
 
+ /*This is the id for the outter carousel of images that are moving by on each page*/
  #music-albums {
      width: 50%;
      margin: 0 auto;
