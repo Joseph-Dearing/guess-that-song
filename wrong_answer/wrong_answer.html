@@ -8,8 +8,10 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../styles/wrong_answer.css" />
 </head>
 <body>
+    <!--This is the header allowing the user know they got the wrong answer-->
     <h1>That's The Wrong Answer</h1>
     
+    <!--This is the div class/container for the animated sad face emoji-->
     <div class='container'>
         <div class='tear'></div>
         <div class='tear2'></div>
@@ -21,8 +23,11 @@
             <div class='mouth'></div>
         </div>
         
+        <!--This is the attribute class for the "Try Again" button-->
         <a class="button" button onclick="goBack()">Try Again</button>
       
+    <!--This below is my audio file that plays as soon as the page is loaded in a loop-->
+    <!--Also note with a recent patch in Google Chrome this file may not play unless you manually update security settings in Chrome-->
         <audio id="wrong_answer" src="../music_files/enya_only_time.m4a" loop="loop"></audio>  
         <script src="../javascript/wrong_answer.js"></script>
 </body>

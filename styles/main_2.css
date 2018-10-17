@@ -1,13 +1,13 @@
+/*This is the background color for some of the questions pages with webkit-keyframes*/ 
+/*It allows the background to move around and change colors*/
 body {
     background: linear-gradient(-75deg, rgb(24, 20, 240), rgb(179, 4, 179), rgb(40, 172, 216));
     background-size: 170% 200%;
     -webkit-animation: Gradient 3s ease-in-out infinite;
     animation: Gradient 3s ease-in-out infinite;
 }
-/*The Code above is the second background I used for my game, because I just wanted the pages to look different
-depending on what song was playing, and so the user can tell everytime they went to the next page. The webkit 
-animation is what allows for the background to change colors*/
 
+/*This allows the background to move around and change colors*/
 @-webkit-keyframes Gradient {
 	0% {
 		background-position: 0% 50%
@@ -20,6 +20,7 @@ animation is what allows for the background to change colors*/
 	}
 }
 
+/*This allows the background to move around and change colors*/
 @keyframes Gradient {
 	10% {
 		background-position: 0% 50%
@@ -32,6 +33,7 @@ animation is what allows for the background to change colors*/
 	}
 }
 
+/*This allows the background to move around and change colors*/
 @-webkit-keyframes Gradient {
     0% {
         background-position: 0% 50%
@@ -44,6 +46,7 @@ animation is what allows for the background to change colors*/
     }
 }
 
+/*This allows the background to move around and change colors*/
 @keyframes Gradient {
     0% {
         background-position: 0% 50%
@@ -56,6 +59,7 @@ animation is what allows for the background to change colors*/
     }
 }
 
+/*This is the id for the multiple choice buttons*/
 #button {
     display: inline-block;
     margin: 5px;
@@ -72,11 +76,15 @@ animation is what allows for the background to change colors*/
     transition: all 0.2s;
 }
 
+/*This is the id for the multiple choice buttons*/
+/*When the user hovers over a button it will highlight and change to a lighter color*/
 #button:hover {
     background: rgb(0, 153, 255);
     color: #ffffff;
 }
 
+/*This is the class for the skip button that is on each page of the game*/ 
+/*It allows the user to skip the question*/
 .skip_button {
     margin: 5px;
     margin-top: 25px;
@@ -92,23 +100,27 @@ animation is what allows for the background to change colors*/
     float: right;
 }
 
+/*This is the class for the skip button that is on each page of the game*/
+/*When the user hovers over a button it will highlight and change to a lighter color*/ 
 .skip_button:hover {
     background: rgb(0, 153, 255);
     color: #ffffff;
 }
 
+/*This is the id for the header on the questions pages*/
 #title {
     text-align: center;
     color: rgb(212, 208, 208);
 }
 
+/*This is the class for the inner carousel of images that are moving by on each page*/
 .carousel-inner img {
     height: 500px;
  }
 
+ /*This is the id for the outter carousel of images that are moving by on each page*/
  #music-albums {
      width: 50%;
-     height: 50%;
      margin: 0 auto;
      padding:1px;
      border:5px solid rgb(179, 179, 179);      
