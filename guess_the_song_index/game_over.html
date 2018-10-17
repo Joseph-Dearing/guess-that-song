@@ -9,8 +9,8 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <div id="title">
-        <h1>Congradulations!!!!</h1>
+    <div id="game_complete">
+        <h1>Congratulations!!!!</h1>
         <h1>You Have Completed The Game!</h1>
     </div>
     
@@ -25,6 +25,8 @@
         <iframe src="https://giphy.com/embed/ir8oYLD0spr1u" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
     </div>
 
+    <!--This below is my audio file that plays as soon as the page is loaded in a loop-->
+    <!--Also note with a recent patch in Google Chrome this file may not play unless you manually update security settings in Chrome-->
     <audio id="game_over" src="../music_files/bang.m4a" loop="loop"></audio> 
     <script src="../javascript/game_over.js"></script>
 </body>
