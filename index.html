@@ -34,7 +34,10 @@
     
     <!--This below is my audio file that plays as soon as the page is loaded in a loop-->
     <!--Also note with a recent patch in Google Chrome this file may not play unless you manually update security settings in Chrome-->
-    <audio id="game_start" src="music_files/stop_music.m4a" loop="loop"></audio>  
+    <!-- <audio id="game_start" src="music_files/stop_music.m4a" loop="loop"></audio>   -->
+    <iframe src="music_files/stop_music.m4a" allow="autoplay" style="display:none" id="iframeAudio" loop="loop"></iframe>
+    <!--Using iframe now instead of my original audio tag codes to overide autoplay block-->
+    
     <script src="javascript/game_start.js"></script>
 </body>
 </html>
