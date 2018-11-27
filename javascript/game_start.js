@@ -2,7 +2,7 @@
 // window.onload = function() {
 //     document.getElementById("game_start").play();
 // }
-//The code above has been grayed out as I am trying to find a way to over-ride Chrome's autoplay policy
+//The code above has been grayed out as it no longer works with Chrome's autoplay policy
 var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
     if(!isChrome){
       $('#iframeAudio').remove()
@@ -11,4 +11,3 @@ var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator
   else{
      $('#playAudio').remove() //just to make sure that it will not have 2x audio in the background 
   }
-//This code is for browsers other then Chrome and also will prevent double audio in the background
